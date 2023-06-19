@@ -1,0 +1,37 @@
+문서04_클래스.txt
+클래스상속 , 인터페이스 상속
+clcass 파생클래스 extends 수퍼클래스 implements 인터페이스,인터페이스,인터페이스{
+	//변수=필드
+	
+	//생성자
+
+	//메서드
+}
+
+1. 클래스는 다중상속 안된다.
+2. 인터페이스는 다중상속 된다.
+
+3. 클래스 extends 클래스
+4. 인터페이스 extends 인터페이스
+5. 클래스 implements 인터페이스
+
+6. 상위 클래스변수로 하위객체 처리, 자동 형변환과 유사하다.
+	<cf>
+	List list=new ArrayList();
+	Map map=new Hashmap();
+-----------------------------------	
+자료형
+
+자동형변환 : 상위 클래스 변수 하위 객체 처리
+			List list=new ArrayList()
+			Map map=new HashMap();
+			
+double d=100;
+System.out.println(10+3.3);
+
+강제형변환=캐스팅=casting
+int a=(int)33.3;
+
+클래스 캐스팅
+Test08_extends_casting.java
+-----------------------------------

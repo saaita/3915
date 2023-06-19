@@ -1,0 +1,28 @@
+문서02.txt
+
+2. switch ~ case 문
+
+형식
+switch(수식 또는 변수){
+  case 값1:
+	처리문1;
+	처리문2;
+	
+	break;///반드시쓰시오, switch블럭을 탈출
+	
+  case 값2:
+	처리문1;
+	처리문2;
+	break;///반드시
+  
+  case 값2:
+	처리문1;
+	처리문2;
+	break;///반드시
+	
+  default : //위의 경우가 아닐 때
+  	처리문;
+
+}//switch-end
+
+Test05_switch

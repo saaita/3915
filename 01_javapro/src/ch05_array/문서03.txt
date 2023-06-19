@@ -1,0 +1,63 @@
+문서03.txt
+■ 배열선언 형식1
+
+자료형[] 배열명;
+자료형 배열명[];
+배열명=new 자료형[요소갯수];
+
+ex:
+int a[];//선언
+a=new int[3];//배열생성
+
+■ 배열선언 형식2
+자료형[]배열명=new 자료형[요소갯수];//선언과 동시에 생성
+	or
+자료형 배열명[]=new
+ex:
+int a[]=new int[3];
+
+■ 배열선언 형식3
+ -	선언과 동시에 초기값을 준다
+ 	자료형 배열명[]={초기값, 초기값,,,};
+ex:
+	int a[]={10,20,30};
+※ stack영역 : 정적변수가 할당 되고(일반변수 선언)(메서드)
+※ heap영역   : 동적 메모리를 할당 한다 (new 객체생성, new 배열생성)
+※ 가비지 컬렉션 : JVM의 Runtime Data Area에서 사용하지 않은
+			  heap메모리의 내용을 삭제 하는 것
+			  
+Test02
+
+----------정리-------------
+자료형
+boolean : 1bit true/false
+정수,실수	: byte<short<int<long<float<double
+무치형	: void
+레퍼런스	: 배열,클래스(String,,,), 인터페이스(interface)
+자동형변환 double a=17;
+강제형변환 int a(12.5;)//error - int a=(int)12.5; //O
+
+연산자
+	산술연산자 : + - * /(정/정) (정/실) (실/정) % 나머지
+			  ++ --
+	관계연산자 : a>b a>=b a<b a<=b a==b a!=b
+	논리연산자 : &&(and) ||(or) !(not)
+	캐스트 연산자 : int a=(char)12.5;
+				char ch=(char)65;
+				
+제어문
+ if 문
+ switch~case
+ for
+ do~while
+ break
+ continue
+ 
+배열
+ int a[];
+ int b[][];
+ int c[][][];
+ 
+
+
+ 

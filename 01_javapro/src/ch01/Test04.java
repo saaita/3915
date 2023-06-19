@@ -1,0 +1,13 @@
+package ch01;
+
+public class Test04 {
+	public static void main(String args[]){
+		//인용부호 출력하기 \'aaa \' => 'aaa'
+		//            \"bbb \" => "bbb"
+		//            \\ccc\\  => \ccc\
+
+		System.out.println("\'aaa\'");
+		System.out.println("\"bbb\"");
+		System.out.println("\\ccc\\");
+	}//main-end
+}//class-end

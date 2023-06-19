@@ -1,0 +1,48 @@
+주석 : 프로그램영향x 메모용도
+           프로그램에 대한 참고사항 기재
+           
+//한줄주석
+
+/*
+여러줄주석
+*/
+
+■ 접근 제한자 종류
+private 		: 자신의 클래스 안에서만 접근 가능
+생략 				: 같은패키지 접근가능
+proptected		: 패키지가 다르더라도 상속받으면 접근가능
+public			: 패키지가 다르고, 상속받지 않아도 접근가능
+========================
+자바 프로그램 여러개의 클래스로 이루어 질수 있다.
+주 클래스 	: main()소속된 클래스
+저장		: main()이 소속된 클래스 이름으로 저장
+
+==자바 프로그램
+
+package ~~
+import java.util.*;
+import java.awt.*;
+// Test01.java =.java식으로 저장
+// public 접근제한자 : 주 클래스에만 넣는다
+// 주 클래스 : main() 소속되어 있는 것
+// main() : JVM 자바가상머신에 의해서 최초로 호출됨
+// 			JDK설치하면 JVM도 설치된다
+public class Test01{
+	public static void main(String args[]){
+	
+	}
+}
+
+class Test02{
+	public void aa(){
+	
+	}
+}
+
+class Test03{
+	public void aaa(){
+
+	}
+}
+----------------------------
+실습 : Test06.java

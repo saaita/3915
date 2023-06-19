@@ -1,0 +1,15 @@
+문서02.txt
+
+String클래스
+- substring(int beginIndex)
+	: 현재 문자열 객체에서 beginIndex 위치부터 끝까지 문자열을 발취한다
+	
+- substring(int beginIndex,int endIndex)
+	: beginIndex위치 부턴 endIndex 직전까지 문자열 발췌한다
+	
+	
+	ex:
+	String s="Good Morning hong-gil-dong";
+	//  012345678900123456789012345
+	String s2=s.substring(18);//gil-dong
+	String s3=s.substring(5,12);//Morning
