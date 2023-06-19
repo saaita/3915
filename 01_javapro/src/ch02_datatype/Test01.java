@@ -2,7 +2,7 @@ package ch02_datatype;
 //자료형
 //변수
 //상수
-
+//
 public class Test01 {
 	public static void main(String args[]){
 		int a=100;//옳은 예제
